@@ -1,44 +1,106 @@
-🚢 Titanic Survival Prediction
-This project is a simple machine learning model built to predict whether a passenger survived the Titanic disaster or not. It’s based on the classic Kaggle dataset and focuses on understanding how different factors like age, gender, ticket class, etc. influenced survival.
-📌 What this project does
-Cleans and preprocesses the Titanic dataset
-Handles missing values and encodes categorical data
-Trains a classification model (Logistic Regression)
-Evaluates performance using accuracy, confusion matrix, and classification report
-🧠 Features used
-Some of the main features considered:
-Passenger class (Pclass)
-Sex
-Age
-Fare
-Number of siblings/spouses (SibSp)
-Number of parents/children (Parch)
-⚙️ Tech stack
-Python
-Pandas, NumPy
-Scikit-learn
-Matplotlib / Seaborn (for basic visualization)
-🚀 How to run
-Clone the repository
-Install dependencies:
+# 🚢 Titanic Survival Prediction
+
+This project is a simple machine learning model that predicts whether a passenger survived the Titanic disaster. It uses the well-known Titanic dataset and focuses on understanding how different features like age, gender, and ticket class affected survival chances.
+
+---
+
+## 📌 Overview
+
+The goal of this project was to go through the complete machine learning workflow:
+
+- Data cleaning and preprocessing  
+- Handling missing values  
+- Encoding categorical features  
+- Training a classification model  
+- Evaluating model performance  
+
+---
+
+## 🧠 Features Used
+
+The model uses the following features:
+
+- `Pclass` – Passenger class  
+- `Sex` – Gender  
+- `Age` – Age of the passenger  
+- `Fare` – Ticket fare  
+- `SibSp` – Number of siblings/spouses aboard  
+- `Parch` – Number of parents/children aboard  
+
+---
+
+## ⚙️ Tech Stack
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+
+---
+
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/hassanakhlaqi/Titanic-Survival-prediction.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd Titanic-Survival-prediction
+```
+
+3. Install dependencies:
+
+```bash
 pip install -r requirements.txt
-Run the script:
+```
+
+4. Run the project:
+
+```bash
 python main.py
-📊 Model performance
-The model achieves a decent accuracy (around ~70–80%, depending on preprocessing).
-This isn’t meant to be perfect — the goal was to understand the workflow end-to-end.
-📁 Project structure
+```
+
+---
+
+## 📊 Model Performance
+
+The model achieves around **70–80% accuracy**, depending on preprocessing.  
+This project focuses more on understanding the pipeline rather than maximizing performance.
+
+---
+
+## 📁 Project Structure
+
+```text
 Titanic-Survival-prediction/
 │
-├── data/     
-├── main.py main script
-├── titanic-dataset-prediction.pynb
+├── data/
+├── main.py
 ├── requirements.txt
-├── titanic.csv
 └── README.md
-📝 Notes
-This project is more about learning than optimization
-There’s definitely room for improvement (feature engineering, tuning, trying other models like Random Forest, etc.)
-📎 Final thoughts
-I built this to get comfortable with the basics of machine learning — loading data, cleaning it, training a model, and evaluating results.
-If you have suggestions or improvements, feel free to fork or open an issue.
+```
+
+## 📊 Model Output
+
+![Confusion Matrix](titanic1.png)
+
+
+---
+
+## 📝 Notes
+
+- This is a beginner-friendly project focused on fundamentals  
+- There is room for improvement (feature engineering, hyperparameter tuning, trying other models)
+
+---
+
+## 📎 Final Thoughts
+
+Built this project to get hands-on experience with machine learning basics and model building.  
+Feel free to fork the repo or suggest improvements.
