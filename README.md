@@ -90,9 +90,9 @@ Titanic-Survival-prediction/
 └── README.md
 ```
 
-## 📊 Model Output
+## 📊 Visualised predicted values
 
-![Survival Matrix](titanic2.png)
+![Survival Matrix](titanic1.png)
 
 
 ---
