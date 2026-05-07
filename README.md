@@ -92,7 +92,7 @@ Titanic-Survival-prediction/
 
 ## 📊 predicted output
 
-![Survival Matrix](images/titanic-output.png)
+![Survival Matrix](imagess/titanic-output.png)
 
 
 ---
