@@ -4,7 +4,7 @@ This project is a simple machine learning model that predicts whether a passenge
 
 ---
 
-## 📌 Overview
+## ⚫ Overview
 
 The goal of this project was to go through the complete machine learning workflow:
 
@@ -16,7 +16,7 @@ The goal of this project was to go through the complete machine learning workflo
 
 ---
 
-## 🧠 Features Used
+## ⚫ Features Used
 
 The model uses the following features:
 
@@ -29,7 +29,7 @@ The model uses the following features:
 
 ---
 
-## ⚙️ Tech Stack
+## ⚫ Tech Stack
 
 - Python  
 - Pandas  
@@ -40,7 +40,7 @@ The model uses the following features:
 ---
 
 
-## 🚀 How to Run
+## ⚫ How to Run
 
 1. Clone the repository:
 
@@ -90,9 +90,9 @@ Titanic-Survival-prediction/
 └── README.md
 ```
 
-## 📊 Visualised predicted values
+## 📊 predicted output
 
-![Survival Matrix](titanic1.png)
+![Survival Matrix](images/titanic-output.png)
 
 
 ---
@@ -104,7 +104,7 @@ Titanic-Survival-prediction/
 
 ---
 
-## 📎 Final Thoughts
+## ⚫ Final Thoughts
 
 Built this project to get hands-on experience with machine learning basics and model building.  
 Feel free to fork the repo or suggest improvements.
