@@ -81,14 +81,18 @@ This project focuses more on understanding the pipeline rather than maximizing p
 Titanic-Survival-prediction/
 │
 ├── data/
-├── main.py
+├── model.py
 ├── requirements.txt
+├── titanic-dataset-prediction.ipynb
+├── titanic.csv
+├── titanic1.png
+├── titanic2.png
 └── README.md
 ```
 
 ## 📊 Model Output
 
-![Confusion Matrix](titanic1.png)
+![Survival Matrix](titanic2.png)
 
 
 ---
